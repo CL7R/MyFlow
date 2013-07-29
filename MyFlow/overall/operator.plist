@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>移动</key>
+	<dict>
+		<key>num</key>
+		<string>10086</string>
+		<key>command</key>
+		<string>CXGLL</string>
+	</dict>
+	<key>联通</key>
+	<dict>
+		<key>num</key>
+		<string>10010</string>
+		<key>command</key>
+		<string>CXLL</string>
+	</dict>
+	<key>电信</key>
+	<dict>
+		<key>num</key>
+		<string>10001</string>
+		<key>command</key>
+		<string>108</string>
+	</dict>
+</dict>
+</plist>

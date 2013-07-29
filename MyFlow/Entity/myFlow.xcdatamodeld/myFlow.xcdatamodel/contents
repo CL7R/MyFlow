@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="11G63b" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DetailFlow" representedClassName="DetailFlow" syncable="YES">
+        <attribute name="day" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flow" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="flowType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MapFlow" representedClassName="MapFlow" syncable="YES">
+        <attribute name="day" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flow" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="flowType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="OverallFlow" representedClassName="OverallFlow" syncable="YES">
+        <attribute name="flow" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="flowType" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DetailFlow" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="MapFlow" positionX="160" positionY="192" width="128" height="120"/>
+        <element name="OverallFlow" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>

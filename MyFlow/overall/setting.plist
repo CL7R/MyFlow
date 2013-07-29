@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>1</key>
+	<array>
+		<string>包月流量</string>
+		<string>本月已用</string>
+		<string>流量查询</string>
+	</array>
+	<key>3</key>
+	<array>
+		<string>清空数据</string>
+	</array>
+</dict>
+</plist>
